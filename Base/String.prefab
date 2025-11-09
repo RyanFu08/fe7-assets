@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4812942831400342644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3129317286490642975}
+  - component: {fileID: 1766056797422481116}
+  m_Layer: 0
+  m_Name: String
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3129317286490642975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812942831400342644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1766056797422481116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812942831400342644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08111463baaa3419993dc607a2b9eae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charPrefab: {fileID: 994096167106876835, guid: 22a3cf6521af44706a0da3e3327d4215, type: 3}
+  cs: []
+  s: holy shit
+  yellow: 0
+  defaultSpacing: 6
+  aSpacing: 6
+  bSpacing: 6
+  cSpacing: 6
+  dSpacing: 6
+  eSpacing: 6
+  fSpacing: 4
+  gSpacing: 6
+  hSpacing: 6
+  iSpacing: 2
+  jSpacing: 6
+  kSpacing: 6
+  lSpacing: 2
+  mSpacing: 6
+  nSpacing: 6
+  oSpacing: 6
+  pSpacing: 6
+  qSpacing: 6
+  rSpacing: 4
+  sSpacing: 6
+  tSpacing: 4
+  uSpacing: 6
+  vSpacing: 6
+  wSpacing: 6
+  xSpacing: 6
+  ySpacing: 6
+  zSpacing: 6
+  ASpacing: 6
+  BSpacing: 6
+  CSpacing: 6
+  DSpacing: 6
+  ESpacing: 6
+  FSpacing: 6
+  GSpacing: 6
+  HSpacing: 6
+  ISpacing: 5
+  JSpacing: 6
+  KSpacing: 6
+  LSpacing: 5
+  MSpacing: 6
+  NSpacing: 6
+  OSpacing: 6
+  PSpacing: 5
+  QSpacing: 6
+  RSpacing: 6
+  SSpacing: 6
+  TSpacing: 6
+  USpacing: 6
+  VSpacing: 6
+  WSpacing: 6
+  XSpacing: 6
+  YSpacing: 6
+  ZSpacing: 6

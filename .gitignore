@@ -1,0 +1,53 @@
+# ---- Unity project (track only Assets/, Packages/, ProjectSettings/) ----
+# Unity caches & generated artifacts
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Bb]ee/
+[Ll]ogs/
+[Mm]emory[Cc]aptures/
+UserSettings/
+CrashReport/
+.gradle/
+.Artifacts/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Unity/Editor junk & local state
+*.unitypackage
+*.apk
+*.aab
+*.ipa
+*.symbols.zip
+
+# Common big binary types (don’t store these in Git; use LFS or host elsewhere)
+*.psd
+*.tif
+*.tiff
+*.wav
+*.aiff
+*.aif
+*.mp3
+*.ogg
+*.mp4
+*.mov
+*.avi
+*.zip
+*.7z
+*.rar
+
+# WebGL build outputs
+*/Release/**
+*/Build/**
+*/Builds/**

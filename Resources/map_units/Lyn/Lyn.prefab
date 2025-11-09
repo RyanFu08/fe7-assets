@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8502374031290378112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5829689976017906814}
+  - component: {fileID: 7659935402780236228}
+  - component: {fileID: 4965405872035266218}
+  m_Layer: 0
+  m_Name: Lyn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5829689976017906814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502374031290378112}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 32, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7659935402780236228
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502374031290378112}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1803290489
+  m_SortingLayer: 4
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: afe5f7d720646424b868e148c5e87ec1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 31, y: 31}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &4965405872035266218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502374031290378112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50468e035cd94309ad5120bf3c5dd06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: blue
+  current_frame: {fileID: 21300000, guid: afe5f7d720646424b868e148c5e87ec1, type: 3}
+  stand_frames:
+  - {fileID: 21300000, guid: 56296d7e8d34f4d978c50be6c54a1aa2, type: 3}
+  - {fileID: 21300000, guid: 30a6cb5dfc4aa492287ae20a56575f4f, type: 3}
+  - {fileID: 21300000, guid: 98408cd81178a4b1790fd406b431e553, type: 3}
+  - {fileID: 21300000, guid: 30a6cb5dfc4aa492287ae20a56575f4f, type: 3}
+  ready_frames:
+  - {fileID: 21300000, guid: 759876d776ffd4dcb8cf21230c935f08, type: 3}
+  - {fileID: 21300000, guid: 779e2c2c236bc4e20ab9b51279c0817d, type: 3}
+  - {fileID: 21300000, guid: ed83ce73b18be419e8e62d74a538d2e4, type: 3}
+  - {fileID: 21300000, guid: 779e2c2c236bc4e20ab9b51279c0817d, type: 3}
+  up_frames:
+  - {fileID: 21300000, guid: 18be63006d4654db79909e90f53e070f, type: 3}
+  - {fileID: 21300000, guid: 7a0a0fa3c91a24f9e8100b542c88cbd9, type: 3}
+  - {fileID: 21300000, guid: c26ac5bed2fb3483997ab8367766faeb, type: 3}
+  - {fileID: 21300000, guid: e33d6d65ed8b94cd1b03a75e6f4a82d8, type: 3}
+  down_frames:
+  - {fileID: 21300000, guid: f31de52f1219040a890a13ad42f21b2c, type: 3}
+  - {fileID: 21300000, guid: afe5f7d720646424b868e148c5e87ec1, type: 3}
+  - {fileID: 21300000, guid: 21de9e0ab16624e2eb7ba574c0454e8e, type: 3}
+  - {fileID: 21300000, guid: 7000cd220ae15448f9bc1a836673722b, type: 3}
+  right_frames:
+  - {fileID: 21300000, guid: 15745f66cce57492d8ec3999d5234152, type: 3}
+  - {fileID: 21300000, guid: 037667c1dc5ca4a94b7c2a6b4e50cf82, type: 3}
+  - {fileID: 21300000, guid: c4f128b19fcd64325b142b03b9c88708, type: 3}
+  - {fileID: 21300000, guid: 060f962d1e64a4bc7927f897d3850f55, type: 3}
+  stand_frames_timing:
+  - 0.5
+  - 0.05
+  - 0.4
+  - 0.05
+  ready_frames_timing:
+  - 0.4
+  - 0.05
+  - 0.4
+  - 0.05
+  up_frames_timing:
+  - 0.3
+  - 0.1
+  - 0.25
+  - 0.1
+  down_frames_timing:
+  - 0.3
+  - 0.1
+  - 0.25
+  - 0.1
+  right_frames_timing:
+  - 0.3
+  - 0.1
+  - 0.25
+  - 0.1
+  stand_offset_x:
+  - 0
+  - 2
+  - 1
+  - 2
+  stand_offset_y:
+  - 2
+  - 2
+  - 1
+  - 2
+  ready_offset_x:
+  - 0
+  - 0
+  - 0
+  - 0
+  ready_offset_y:
+  - 5
+  - 5
+  - 5
+  - 5
+  up_offset_x:
+  - 0
+  - 0
+  - 0
+  - 0
+  up_offset_y:
+  - 5
+  - 5
+  - 5
+  - 5
+  down_offset_x:
+  - 0
+  - 0
+  - 0
+  - 0
+  down_offset_y:
+  - 0
+  - 0
+  - 0
+  - 0
+  right_offset_x:
+  - 0
+  - 0
+  - 0
+  - 0
+  right_offset_y:
+  - 1
+  - 1
+  - 1
+  - 1
+  state: down
+  cx: 0
+  cy: 2
+  timer: 0.07207753
+  frame: 1

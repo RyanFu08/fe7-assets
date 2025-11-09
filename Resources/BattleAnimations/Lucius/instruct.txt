@@ -1,0 +1,62 @@
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- Magic_000.png
+1 p- Magic_014.png
+1 p- Magic_013.png
+10 p- Magic_015.png
+1 p- Magic_016.png
+2 p- Magic_015.png
+2 p- Magic_016.png
+1 p- Magic_015.png
+1 p- Magic_016.png
+1 p- Magic_015.png
+2 p- Magic_016.png
+2 p- Magic_015.png
+1 p- Magic_016.png
+1 p- Magic_015.png
+2 p- Magic_016.png
+1 p- Magic_015.png
+2 p- Magic_016.png
+1 p- Magic_015.png
+1 p- Magic_016.png
+1 p- Magic_015.png
+2 p- Magic_016.png
+2 p- Magic_015.png
+1 p- Magic_016.png
+2 p- Magic_015.png
+2 p- Magic_016.png
+2 p- Magic_015.png
+1 p- Magic_016.png
+1 p- Magic_015.png
+1 p- Magic_016.png
+2 p- Magic_015.png
+2 p- Magic_016.png
+1 p- Magic_015.png
+1 p- Magic_017.png
+1 p- Magic_015.png
+2 p- Magic_017.png
+1 p- Magic_015.png
+1 p- Magic_017.png
+1 p- Magic_015.png
+2 p- Magic_017.png
+4 p- Magic_018.png
+1 p- Magic_019.png
+2 p- Magic_018.png
+1 p- Magic_019.png
+2 p- Magic_018.png
+C05                               #Call spell associated with equipped weapon
+1 p- Magic_020.png
+1 p- Magic_021.png
+1 p- Magic_020.png
+1 p- Magic_021.png
+2 p- Magic_008.png
+5 p- Magic_006.png
+5 p- Magic_009.png
+4 p- Magic_010.png
+1 p- Magic_011.png
+C01                               #NOP
+1 p- Magic_012.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+2 p- Magic_013.png
+4 p- Magic_014.png
+C0D                               #End of dodge animation. preceeded by 0x06
