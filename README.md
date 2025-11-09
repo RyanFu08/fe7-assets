@@ -11,6 +11,8 @@ Credit: This project uses assets and resources sourced from the community-driven
 
 ## Tutorial
 
+Click to watch the video:
+
 [![Watch the video](https://img.youtube.com/vi/2X9ydSmaUIQ/hqdefault.jpg)](https://www.youtube.com/watch?v=2X9ydSmaUIQ)
 
 ## Features
