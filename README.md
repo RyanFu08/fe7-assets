@@ -9,9 +9,11 @@ This project is a gameplay-focused remake of **Fire Emblem: The Blazing Blade** 
 
 Credit: This project uses assets and resources sourced from the community-driven Fire Emblem repository at https://github.com/Klokinator/FE-Repo.  
 
-## Features
+## Tutorial
 
-  
+[![Watch the video](https://img.youtube.com/vi/2X9ydSmaUIQ/hqdefault.jpg)](https://www.youtube.com/watch?v=2X9ydSmaUIQ)
+
+## Features
 
 ### Core Systems
 
